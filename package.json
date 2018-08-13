@@ -1,0 +1,47 @@
+{
+  "name": "systemdemo",
+  "version": "1.0.0",
+  "description": "An order system for your convenience",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "elementUI",
+    "ordersystem"
+  ],
+  "author": "kup <1789540229@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "postcss-plugin-px2rem": "^0.7.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "element-ui": "^2.4.6",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "portfinder": "^1.0.16",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
